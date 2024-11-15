@@ -12,6 +12,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 34px;
+  padding: 16px;
 }
 
 header {
@@ -31,6 +32,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
+  transform: translate(0px, -363px);
 }
 
 .great-style {
@@ -39,6 +42,7 @@ header {
   font-weight: 900;
   line-height: 40px;
   text-align: center;
+  color: white;
 }
 
 .paragraph-style {
@@ -47,8 +51,240 @@ header {
   font-weight: 400;
   line-height: 25px;
   text-align: center;
+  width: 279px;
+  color: #fefcf7;
 }
 
 .image-hero-coffeepress {
   width: 327px;
+}
+
+.plan-button {
+  padding: 15px 32px;
+  font-family: Fraunces;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  background-color: #0e8784;
+  border-radius: 6px;
+  border: none;
+}
+
+.our-collection-style {
+  font-family: Fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: center;
+  color: #83888f;
+
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+
+.coffee-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.coffee-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.coffee-names {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.coffee-info-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #333d4b;
+  width: 282px;
+}
+
+.choose-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c343e;
+  padding: 21px;
+  gap: 61px;
+  border-radius: 10px;
+  color: white;
+  transform: translate(-1px, -937px);
+}
+
+.choose-us-style {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+}
+
+.best-exclusive-benefits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  color: white;
+  background-color: #0e8784;
+  border-radius: 8px;
+  padding: 24px;
+  transform: translate(1px, -847px);
+}
+
+.best-exclusive-benefits-section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  color: white;
+  background-color: #0e8784;
+  border-radius: 8px;
+  padding: 24px;
+  transform: translate(1px, -814px);
+}
+
+.best-exclusive-benefits-section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  color: white;
+  background-color: #0e8784;
+  border-radius: 8px;
+  padding: 29px;
+  transform: translate(1px, -812px);
+}
+
+.coffee-info-style-two {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  width: 282px;
+}
+
+.best-quality-style {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+}
+
+.discover-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  width: 212px;
+}
+
+.how-it-works-section {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: #83888f;
+  margin-top: -600px;
+}
+
+.receive-enjoy-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.receive-enjoy-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.receive-enjoy-header-style {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.receive-enjoy-span-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #333d4b;
+  width: 327px;
+}
+
+.plan-button {
+  padding: 15px 31px;
+  background-color: #0e8784;
+  color: white;
+  font-family: Fraunces;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+  background-color: #2c343e;
+  padding: 42px;
+}
+
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  text-align: left;
+  color: #83888f;
+}
+
+.icon-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
 }
