@@ -288,3 +288,141 @@ footer {
   align-items: center;
   gap: 24px;
 }
+
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  padding: 16px;
+}
+
+.image-hero-whitecup {
+  width: 327px;
+}
+
+.us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  transform: translate(-6px, -288px);
+}
+
+.us-style {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+
+.paragraph-us-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  width: 279px;
+}
+
+.image-commitment {
+  width: 327px;
+  margin-top: -220px;
+}
+
+.commitment-header-style {
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.commitment-paragraph-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #333d4b;
+}
+.image-quality {
+  width: 279px;
+}
+
+.quality-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  transform: translate(-1px, 381px);
+  margin-top: -200px;
+}
+
+.quality-section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  transform: translate(-9px, 106px);
+}
+
+.quality-style {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.quality-paragraph-style {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  width: 279px;
+}
+
+.headquarters-style {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: #83888f;
+}
+
+.country-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.country-info-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
