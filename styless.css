@@ -426,3 +426,189 @@ footer {
   text-align: center;
   color: #333d4b;
 }
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-paragraph-section {
+  transform: translate(10px, -260px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.image-hero-blackcup {
+  width: 327px;
+}
+
+.plan-style {
+  font-family: Fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.green-grey-box-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -600px;
+  margin-left: 15px;
+}
+
+.box-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.receive-enjoy-style-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.receive-enjoy-section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  transform: translate(10px, -1000px);
+}
+
+.receive-enjoy-header-style-two {
+  font-family: Fraunces;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+}
+
+.receive-enjoy-span-style-two {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  width: 327px;
+}
+
+.drink-coffee-section {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #83888f;
+}
+
+.drink-coffee-section-style {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f1eb;
+  padding: 27px;
+  gap: 13px;
+  border-radius: 8px;
+}
+
+.drink-coffee-header-section {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  color: #333d4b;
+}
+
+.drink-coffee-span-section {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #333d4b;
+}
+
+.drink-coffee-green-box-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #0e8784;
+  padding: 27px;
+  gap: 13px;
+  border-radius: 8px;
+}
+
+.drink-coffee-green-box-header-section {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+}
+
+.drink-coffee-green-box-span-section {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: white;
+}
+
+.summary-section {
+  background: #333d4b;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.order-summary {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.span-white-style {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: left;
+  color: white;
+}
+
+.span-green-style {
+  font-family: Fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: left;
+  color: #0e8784;
+}
+
+.create-my-plan-button {
+  padding: 15px 35px;
+  background-color: #0e8784;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Fraunces;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+}
