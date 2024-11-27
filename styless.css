@@ -142,6 +142,9 @@ header {
   line-height: 28px;
   text-align: center;
 }
+.whitecup-style {
+  display: none;
+}
 
 .bg-quality {
   display: none;
@@ -225,6 +228,10 @@ header {
   text-align: center;
   color: #83888f;
   margin-top: -600px;
+}
+
+.timeline {
+  display: none;
 }
 
 .receive-enjoy-section {
@@ -345,6 +352,12 @@ footer {
 .image-commitment {
   width: 327px;
   margin-top: -220px;
+}
+
+.image-makeing-coffee-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .commitment-header-style {
@@ -716,6 +729,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  .container-one {
+    gap: 52px;
+  }
   header {
     gap: 760px;
   }
@@ -788,6 +804,35 @@ footer {
     gap: 24px;
   }
 
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74%;
+    position: relative;
+    transform: translate(-3px, 29px);
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #e3b887;
+    transform: translateY(-50%);
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #2e746c;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
   .best-exclusive-benefits-section {
     transform: translate(1px, -815px);
   }
@@ -812,5 +857,56 @@ footer {
     padding: 7px;
     gap: 77px;
     flex-direction: row;
+  }
+
+  .whitecup-style {
+    display: block;
+  }
+
+  .image-hero-whitecup {
+    display: none;
+  }
+
+  .us-section {
+    transform: translate(-322px, -347px);
+  }
+
+  .us-style {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .paragraph-us-style {
+    width: 445px;
+  }
+
+  .image-makeing-coffee-section {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+  }
+
+  .image-makeing-coffee-style {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+  }
+
+  .image-commitment {
+    width: 445px;
+  }
+
+  .commitment-header-style {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .commitment-paragraph-style {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
   }
 }
