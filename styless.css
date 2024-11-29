@@ -381,6 +381,14 @@ footer {
   width: 279px;
 }
 
+.Bitmap-one {
+  display: block;
+}
+
+.black-background-style {
+  display: none;
+}
+
 .quality-section {
   display: flex;
   flex-direction: column;
@@ -400,7 +408,6 @@ footer {
 
 .quality-style {
   font-family: Fraunces;
-  font-size: 28px;
   font-weight: 900;
   line-height: 28px;
   text-align: center;
@@ -888,6 +895,7 @@ footer {
 
   .image-makeing-coffee-style {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 39px;
   }
@@ -908,5 +916,43 @@ footer {
     font-weight: 400;
     line-height: 26px;
     text-align: left;
+  }
+
+  .Bitmap-one {
+    display: none;
+  }
+
+  .black-background-style {
+    display: block;
+  }
+
+  .quality-section-one {
+    transform: translate(-284px, 13px);
+  }
+
+  .quality-style {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .quality-paragraph-style {
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .image-quality {
+    width: 445px;
+    transform: translate(300px, 99px);
+  }
+
+  .country-style {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 95px;
   }
 }
