@@ -22,6 +22,10 @@ header {
   gap: 148px;
 }
 
+.icon-hamburger {
+  display: block;
+}
+
 .great-coffeepress-section {
   display: flex;
   flex-direction: column;
@@ -756,7 +760,7 @@ footer {
     gap: 52px;
   }
   header {
-    gap: 760px;
+    gap: 557px;
   }
   .image-hero-coffeepress {
     display: none;
@@ -1090,5 +1094,40 @@ footer {
 
   .drink-coffee-green-box-section {
     width: 228px;
+  }
+  .navbar {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #83888f;
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .nav-link.active {
+    padding: 2px 4px;
+  }
+
+  .nav-link:hover {
+    color: #000;
+  }
+
+  .icon-hamburger {
+    display: none;
   }
 }
