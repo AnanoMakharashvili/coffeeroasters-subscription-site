@@ -478,6 +478,11 @@ footer {
 
 .image-hero-blackcup {
   width: 327px;
+  display: block;
+}
+
+.cup-coffee-style {
+  display: none;
 }
 
 .plan-style {
@@ -489,11 +494,18 @@ footer {
   color: white;
 }
 
+.bg-steps {
+  display: block;
+}
+
+.desktop-version-background {
+  display: none;
+}
+
 .green-grey-box-section {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: -600px;
   margin-left: 15px;
 }
 
@@ -735,6 +747,10 @@ footer {
   gap: 32px;
 }
 
+.step-menu {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   .container-one {
     gap: 52px;
@@ -954,5 +970,125 @@ footer {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     gap: 95px;
+  }
+
+  .image-hero-blackcup {
+    display: none;
+  }
+
+  .container-two {
+    gap: 20px;
+  }
+
+  .cup-coffee-style {
+    display: block;
+  }
+
+  .image-paragraph-section {
+    transform: translate(-299px, -341px);
+  }
+
+  .plan-style {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+  }
+
+  .paragraph-style {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .bg-steps {
+    display: none;
+  }
+
+  .receive-enjoy-section-two {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 95px;
+    transform: translate(10px, -400px);
+  }
+
+  .desktop-version-background {
+    display: block;
+    margin-top: -23;
+  }
+
+  .step-menu {
+    width: 300px;
+    display: block;
+  }
+
+  .step-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .step-item:last-child {
+    border-bottom: none;
+  }
+
+  .step-number {
+    font-weight: bold;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .step-text {
+    font-weight: 500;
+    color: #8c8c8c;
+    cursor: pointer;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .step-item.active .step-number,
+  .step-item.active .step-text {
+    color: #4a4a4a;
+    font-weight: bold;
+  }
+
+  .step-item:last-child .step-text {
+    font-weight: bold;
+    color: #303030;
+  }
+
+  .step-three-boxes-section {
+    display: flex;
+    gap: 45px;
+    flex-direction: row;
+  }
+
+  .box-section {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .drink-coffee-section {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .drink-coffee-section-style {
+    width: 228px;
+  }
+
+  .drink-coffee-green-box-section {
+    width: 228px;
   }
 }
