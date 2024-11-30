@@ -938,6 +938,10 @@ footer {
     text-align: left;
   }
 
+  .commitment-paragraph-style {
+    width: 540px;
+  }
+
   .Bitmap-one {
     display: none;
   }
