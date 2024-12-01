@@ -22,6 +22,10 @@ header {
   gap: 148px;
 }
 
+.navbar {
+  display: none;
+}
+
 .icon-hamburger {
   display: block;
 }
@@ -742,6 +746,7 @@ footer {
   line-height: 32px;
   text-align: center;
   color: #333d4b;
+  text-decoration: none;
 }
 
 .create-your-plan-style {
@@ -761,6 +766,10 @@ footer {
   }
   header {
     gap: 557px;
+  }
+
+  .icon-hamburger {
+    display: none;
   }
   .image-hero-coffeepress {
     display: none;
@@ -986,6 +995,7 @@ footer {
 
   .container-two {
     gap: 20px;
+    padding: 16px;
   }
 
   .cup-coffee-style {
